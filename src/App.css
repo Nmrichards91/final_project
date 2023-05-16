@@ -1,0 +1,56 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: #000000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+main { 
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  color: #ffffff;
+  margin: 50px;
+}
+
+
+.recipecard{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: #424B54;
+  margin: 20px;
+  padding: 20px;
+}
+
+.title { 
+  color: purple;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.types { 
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: #ffffff;
+}

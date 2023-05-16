@@ -13,7 +13,10 @@ const Type = (props) => {
     case 'Game':
       colorVariable = 'blue'
       break
-    default:
+    case 'Seafood':
+      colorVariable = 'purple'
+      break
+  default:
       colorVariable = 'black'
   }
 

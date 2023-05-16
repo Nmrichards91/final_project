@@ -1,5 +1,5 @@
-{
-  "recipes": [
+[
+
     {
       "name": "Pancakes",
       "subtitle": "A classic American breakfast treat. Totally suitable for dessert.",
@@ -920,7 +920,7 @@
         "step10": ""
       },
       "garnishes": "",
-      "image": ""
+      "image": "https://www.monpetitfour.com/wp-content/uploads/2021/01/gateau-basque-scaled.jpg"
       },
     {
       "name": "Vanilla Bean Pear Cocottes",
@@ -1185,4 +1185,3 @@
       "image": ""
       }
     ]
-  }

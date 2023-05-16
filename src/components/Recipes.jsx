@@ -14,6 +14,9 @@ const Recipe = (props) => {
         <h4>{props.recipe.nutrition}</h4>
         <h4>{props.recipe.flavor}</h4>
         <h4>{props.recipe.difficulty}</h4>
+        <h4>{props.recipe.time.hours}:{props.recipe.time.minutes}</h4>
+        <h4>{props.recipe.ingredients}</h4>
+        <h4>{props.recipe.recipe}</h4>
       </div>
         <div className="types"> 
       {props.recipe.types((type) => ( 

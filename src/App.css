@@ -54,3 +54,15 @@ main {
   border-style: solid;
   border-color: #ffffff;
 }
+
+.app { 
+  text-align: center;
+  width: 400px;
+  display: flex;
+  background-color:  #424B54;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+}

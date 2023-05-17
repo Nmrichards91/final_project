@@ -11,16 +11,16 @@ const Recipe = (props) => {
     <div className="app">
     <h1>{props.recipe.name}</h1>
       <img src={props.recipe.image} />
-      <div class="recipecard"> 
+      {/* <div class="recipecard"> 
         <Type type={props.recipe.type} />
         <Meal meal={props.recipe.meal} />
         <Nutrition nutrition={props.recipe.nutrition} />
         <Difficulty difficulty={props.recipe.difficulty} />
-    </div>
+    </div> */}
       <div>
         <h2>{props.recipe.subtitle}</h2>
-        <h3>{props.recipe.flavor}</h3>
-        <h4>{props.recipe.time.hours}:{props.recipe.time.minutes}</h4>
+        <h3 class="flavor">{props.recipe.flavor}</h3>
+        <h3 class="time">Time:{props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
         <p class="ingredient">{props.recipe.ingredients.ing1}</p>
         <p class="ingredient">{props.recipe.ingredients.ing2}</p>
         <p class="ingredient">{props.recipe.ingredients.ing3}</p>

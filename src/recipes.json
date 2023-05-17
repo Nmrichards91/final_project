@@ -10,7 +10,7 @@
       "type": "",
       "difficulty": "Easy",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -98,7 +98,7 @@
       "type": "Vegetarian",
       "difficulty": "Easy",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -141,7 +141,7 @@
       "type": "Vegan",
       "difficulty": "Easy",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "20"
       },
       "ingredients": { 
@@ -184,7 +184,7 @@
         "type": "Vegetarian",
         "difficulty": "Moderate",
         "time": { 
-          "hours": "", 
+          "hours": "0", 
           "minutes": "45"
       },
       "ingredients": { 
@@ -227,7 +227,7 @@
         "difficulty": "Easy",
         "meal": "Lunch & Dinner",
         "time": { 
-          "hours": "", 
+          "hours": "0", 
           "minutes": "25"
       },
       "ingredients": { 
@@ -270,7 +270,7 @@
         "difficulty": "Easy",
         "meal": "Lunch & Dinner",
         "time": { 
-          "hours": "", 
+          "hours": "0", 
           "minutes": "45"
       },
       "ingredients": { 
@@ -314,7 +314,7 @@
       "difficulty": "Easy",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "45"
       },
       "ingredients": { 
@@ -357,7 +357,7 @@
       "difficulty": "Moderate",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -400,7 +400,7 @@
       "difficulty": "Moderate",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "35"
       },
       "ingredients": { 
@@ -443,7 +443,7 @@
       "difficulty": "Moderate",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -530,7 +530,7 @@
       "difficulty": "Moderate",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "35"
       },
       "ingredients": { 
@@ -574,7 +574,7 @@
       "difficulty": "Easy",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -618,7 +618,7 @@
       "difficulty": "Easy",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -662,7 +662,7 @@
       "difficulty": "Easy",
       "meal": "Lunch & Dinner",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "30"
       },
       "ingredients": { 
@@ -800,7 +800,7 @@
       "difficulty": "Easy",
       "meal": "Dessert",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "25"
       },
       "ingredients": { 
@@ -845,7 +845,7 @@
       "meal": "Dessert",
       "time": { 
         "hours": "1", 
-        "minutes": ""
+        "minutes": "00"
       },
       "ingredients": { 
         "ing1": "",
@@ -1063,7 +1063,7 @@
       "meal": "",
       "time": { 
         "hours": "1", 
-        "minutes": ""
+        "minutes": "00"
       },
       "ingredients": { 
         "ing1": "1 lbs. wild turkey meat",
@@ -1106,7 +1106,7 @@
       "difficulty": "Easy",
       "meal": "",
       "time": { 
-        "hours": "", 
+        "hours": "0", 
         "minutes": "45"
       },
       "ingredients": { 

@@ -21,50 +21,65 @@ main {
   justify-content: space-between;
   display: flex;
   color: #775253;
-  margin: 50px;
+  margin: 10px;
 }
 
 h1{ 
-  color: #775253;
+  color: #32292F;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
-
+  font-family: 'tommy font';
+  font-size: 38px;
 }
 
 h2{ 
   color:#775253;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
-
+  font-family: 'Rochaline-Regular';
+  font-size: 24px;
 }
 
 h3{ 
-  color: #775253;
+  color:#775253;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
-
+  font-size: 14px;
 }
+
+.subtitle { 
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 16px;
+}
+
+
 
 h4{ 
   color: #775253;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
+  font-size: 20px;
 
 }
 
 h5{ 
   color: #775253;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
 
 }
@@ -72,30 +87,42 @@ h5{
 p{ 
   color: #775253;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
 
 }
 
-.recipecard{ 
+.page{ 
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
-  background-color: #424B54;
-  margin: 20px;
-  padding: 20px;
-}
-
-.title { 
-  color: #775253;
+  background-color: #fffbfc;
+  margin: 10px;
+  padding: 10px;
   align-items: center;
-  margin: 50px;
-  padding: 50px;
-  text-align: center;
-
+  justify-content: space-around;
+  border-style: solid;
+  border-color: #775253;
+  border-width: 3px;
 }
+
+.recipecard { 
+  text-align: center;
+  width: 300px;
+  display: flex;
+  background-color:  #fffbfc;
+  padding: 10px;
+  margin: 5px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+  border-style: solid;
+  border-color: #775253;
+  border-width: 3px;
+}
+
 
 .types { 
   text-align: center;
@@ -116,28 +143,50 @@ p{
   justify-content: space-around;
 }
 
-.app { 
-  text-align: center;
-  width: 400px;
-  display: flex;
-  background-color:  #424B54;
-  padding: 30px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 70vh;
-}
 
 .ingredient { 
-  color: #ffffff;
+  color: #775253;
   size: 12px;
 }
 
 .step { 
-  color: #ffffff;
+  color: #775253;
   size: 12px;
 }
 
 img { 
-  width: 200px;
+  width: 230px;
+  height: 230px;
+  background: 50% 50% no-repeat;
 }
+
+.recipescroll { 
+  height: 80px; 
+  overflow-y: scroll;
+  line-height: 1.5;
+  align-items: left;
+  font-size: 12px;
+  text-align: start;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  margin: 2px;
+}
+
+.components { 
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: #ffffff;
+  }

@@ -3,7 +3,7 @@
 const Difficulty= (props) => {
   let colorVariable
 
-  switch (props.recipe.difficulty) {
+  switch (props.difficulty) {
     case 'Easy':
       colorVariable = 'green'
       break
@@ -19,8 +19,8 @@ const Difficulty= (props) => {
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
-        {props.recipe.difficulty}
+    <div classNameName="types" style ={{backgroundColor: colorVariable}}>
+        {props.difficulty}
     </div>
   )
   } 

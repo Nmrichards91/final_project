@@ -3,7 +3,7 @@
 const Nutrition = (props) => {
   let colorVariable
 
-  switch (props.recipe.nutrition) {
+  switch (props.nutrition) {
     case 'Healthy':
       colorVariable = 'green'
       break
@@ -13,8 +13,8 @@ const Nutrition = (props) => {
 
 
   return ( 
-    <div className="nutrition" style ={{backgroundColor: colorVariable}}>
-        {props.recipe.nutrition}
+    <div classNameName="nutrition" style ={{backgroundColor: colorVariable}}>
+        {props.nutrition}
     </div>
   )
   } 

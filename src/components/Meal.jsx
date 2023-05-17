@@ -3,7 +3,7 @@
 const Meal= (props) => {
   let colorVariable
 
-  switch (props.recipe.meal) {
+  switch (props.meal) {
     case 'Breakfast':
       colorVariable = 'red'
       break
@@ -19,8 +19,8 @@ const Meal= (props) => {
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
-        {props.recipe.meal}
+    <div classNameName="types" style ={{backgroundColor: colorVariable}}>
+        {props.meal}
     </div>
   )
   } 

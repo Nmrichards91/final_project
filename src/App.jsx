@@ -1,14 +1,14 @@
 import './App.css'
 import data from './recipes.json'
-import Recipe from './components/Recipes'
+import Recipe from './components/Recipe'
 
 const App = () => {
 
   return (
       <div>
-      <h1 className="title">Rhowdy Chef</h1>
+      <h1 classNameName="title">Rhowdy Chef</h1>
       <main>
-      <div className="page">
+      <div classNameName="page">
       {data.recipes.map((recipe) => (
       <Recipe recipe={recipe}
         key={recipe.name}/> ))} 

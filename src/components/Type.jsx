@@ -2,8 +2,9 @@
 
 const Type = (props) => {
   let colorVariable
+  console.log(props)
 
-  switch (props.recipe.type) {
+  switch (props.type) {
     case 'Vegan':
       colorVariable = 'red'
       break
@@ -22,8 +23,8 @@ const Type = (props) => {
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
-        {props.recipe.type}
+    <div classNameName="types" style ={{backgroundColor: colorVariable}}>
+        {props.type}
     </div>
   )
   } 

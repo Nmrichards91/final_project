@@ -17,12 +17,12 @@ const Type = (props) => {
       colorVariable = 'purple'
       break
   default:
-      colorVariable = 'black'
+      colorVariable = ''
   }
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
+    <div className="types" style ={{color: colorVariable}}>
         {props.type}
     </div>
   )

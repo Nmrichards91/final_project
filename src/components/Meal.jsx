@@ -14,12 +14,12 @@ const Meal= (props) => {
       colorVariable = 'blue'
       break
   default:
-      colorVariable = 'white'
+      colorVariable = ''
   }
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
+    <div className="types" style ={{color: colorVariable}}>
         {props.meal}
     </div>
   )

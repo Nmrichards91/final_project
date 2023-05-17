@@ -5,21 +5,21 @@ const Difficulty= (props) => {
 
   switch (props.difficulty) {
     case 'Easy':
-      colorVariable = 'green'
+      colorVariable = "#775253"
       break
     case 'Moderate':
-      colorVariable = 'red'
+      colorVariable = "#775253"
       break
     case 'Hard':
-      colorVariable = 'blue'
+      colorVariable = "#775253"
       break
   default:
-      colorVariable = 'white'
+      colorVariable = ''
   }
 
 
   return ( 
-    <div className="types" style ={{backgroundColor: colorVariable}}>
+    <div className="types" style ={{color: colorVariable}}>
         {props.difficulty}
     </div>
   )

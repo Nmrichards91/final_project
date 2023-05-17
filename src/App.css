@@ -110,33 +110,12 @@ p{
   margin: 5px;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
-  height: 80vh;
+  justify-content: space-between;
+  height: 55vh;
   border-style: solid;
   border-color: #775253;
   border-width: 3px;
 }
-
-
-.types { 
-  text-align: center;
-  display: flex;
-  margin: 5px;
-  padding: 5px;
-  justify-content: space-between;
-  border-style: solid;
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-.nutrition { 
-  text-align: center;
-  display: flex;
-  margin: 5px;
-  padding: 5px;
-  justify-content: space-between;
-}
-
 
 .ingredient { 
   color: #775253;
@@ -156,7 +135,7 @@ img {
 }
 
 .recipescroll { 
-  height: 55px; 
+  height: 80px; 
   overflow-y: auto;
   line-height: auto;
   align-items: left;
@@ -186,15 +165,17 @@ img {
   padding: 5px;
 }
 
-/* .components { 
+.components { 
     text-align: center;
     display: flex;
-    margin: 5px;
+    align-items: center;
+    border-style: solid;
+    border-color: #775253;
+    width: 360px;
     padding: 5px;
     justify-content: space-around;
-    border-style: solid;
-    border-color: #ffffff;
-  } */
+
+  } 
 
 
 .flavorimage { 
@@ -202,3 +183,23 @@ img {
   height: 30px;
   display: flex;
 }
+
+
+/* .types { 
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.nutrition { 
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-between;
+} */

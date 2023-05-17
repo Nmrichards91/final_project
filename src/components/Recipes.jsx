@@ -22,10 +22,9 @@ const Recipe = (props) => {
       <div>
         <div className="subtitle">{props.recipe.subtitle}</div>
         <h3 clasNames="flavor">{props.recipe.flavor}</h3>
-        <h3 className="time">Time:{props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
-        <h3>Recipe:</h3>
+        <h3 className="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
         <div className="recipescroll">
-        <h4>Ingredients</h4>
+        <h4>Ingredients ↓</h4>
           <p class="ingredient">{props.recipe.ingredients.ing1}</p>
           <p class="ingredient">{props.recipe.ingredients.ing2}</p>
           <p class="ingredient">{props.recipe.ingredients.ing3}</p>

@@ -11,18 +11,18 @@ const Recipe = (props) => {
     <div className="recipecard">
     <h2>{props.recipe.name}</h2>
       <img src={props.recipe.image} />
-      <div className="recipecard"> 
-      <div className="components">
-        <Type type={props.recipe.type} />|
-        <Meal meal={props.recipe.meal} />|
-        <Nutrition nutrition={props.recipe.nutrition} />|
-        <Flavor flavor={props.recipe.flavor} />
-      </div> 
-      </div>
+      <ul className="components">
+        <li><Meal meal={props.recipe.meal} /></li>
+        <li><Nutrition nutrition={props.recipe.nutrition} /></li>
+        <li><Flavor flavor={props.recipe.flavor} /></li>
+        <li><Type type={props.recipe.type} /></li>
+      </ul> 
       <div>
         <div className="subtitle">{props.recipe.subtitle}</div>
-        <h3>Difficulty: </h3><Difficulty difficulty={props.recipe.difficulty} />
-        <h3 className="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
+        <div className="timedifficulty">
+          <h3 className="difficulty">Difficulty:&nbsp;<Difficulty difficulty={props.recipe.difficulty} /></h3>
+          <h3 className="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
+        </div>
         <div className="recipescroll">
         <h4>Ingredients ↓</h4>
           <p className="ingredient">{props.recipe.ingredients.ing1}</p>

@@ -47,9 +47,27 @@ h2{
 
 h3{ 
   color:#775253;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.difficulty {
+  color:#775253;
+  font-size: 16px;
+  justify-content: flex-start;
   align-items: center;
+  margin: 20px;
   text-align: center;
-  font-size: 14px;
+  display: flex;
+}
+
+.time {
+  color:#775253;
+  font-size: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  display: flex;
 }
 
 .subtitle { 
@@ -61,6 +79,13 @@ h3{
   border-style: solid;
   border-color: #ffffff;
   font-size: 16px;
+  text-align: center;
+}
+
+.timedifficulty { 
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 h4{ 
@@ -102,7 +127,6 @@ p{
 }
 
 .recipecard { 
-  text-align: center;
   width: 400px;
   display: flex;
   background-color:  #fffbfc;
@@ -182,6 +206,10 @@ img {
   width: 30px;
   height: 30px;
   display: flex;
+}
+
+ul { 
+  list-style: none;
 }
 
 

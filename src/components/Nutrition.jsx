@@ -13,7 +13,7 @@ const Nutrition = (props) => {
 
 
   return ( 
-    <div classNameName="nutrition" style ={{backgroundColor: colorVariable}}>
+    <div className="nutrition" style ={{backgroundColor: colorVariable}}>
         {props.nutrition}
     </div>
   )

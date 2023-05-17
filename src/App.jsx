@@ -6,9 +6,9 @@ const App = () => {
 
   return (
       <div>
-      <h1 classNameName="title">Rhowdy Chef</h1>
+      <h1 className="title">Rhowdy Chef</h1>
       <main>
-      <div classNameName="page">
+      <div className="page">
       {data.recipes.map((recipe) => (
       <Recipe recipe={recipe}
         key={recipe.name}/> ))} 

@@ -7,12 +7,11 @@ import Nutrition from './Nutrition'
 const Recipe = (props) => {
 
   return ( 
-    <div classNameName="recipecard">
+    <div className="recipecard">
     <h2>{props.recipe.name}</h2>
       <img src={props.recipe.image} />
-      
-      <div classNameName="components">
-      <div classNameName="recipecard"> 
+      <div className="recipecard"> 
+      <div className="components">
         <Type type={props.recipe.type} />
         <Meal meal={props.recipe.meal} />
         <Nutrition nutrition={props.recipe.nutrition} />
@@ -21,10 +20,10 @@ const Recipe = (props) => {
     
       </div>
       <div>
-        <div classNameName="subtitle">{props.recipe.subtitle}</div>
-        <img classNameName="flavorimage" src={props.recipe.flavorimage} /><h3 classNameName="flavor">{props.recipe.flavor}</h3>
-        <h3 classNameName="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
-        <div classNameName="recipescroll">
+        <div className="subtitle">{props.recipe.subtitle}</div>
+        <h3 className="flavor">{props.recipe.flavor}</h3>
+        <h3 className="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
+        <div className="recipescroll">
         <h4>Ingredients ↓</h4>
           <p className="ingredient">{props.recipe.ingredients.ing1}</p>
           <p className="ingredient">{props.recipe.ingredients.ing2}</p>

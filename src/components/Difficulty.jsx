@@ -19,7 +19,7 @@ const Difficulty= (props) => {
 
 
   return ( 
-    <div classNameName="types" style ={{backgroundColor: colorVariable}}>
+    <div className="types" style ={{backgroundColor: colorVariable}}>
         {props.difficulty}
     </div>
   )

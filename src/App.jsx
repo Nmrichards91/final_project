@@ -9,7 +9,7 @@ const App = () => {
       <h1 className="title">Rhowdy Chef</h1>
       <main>
       <div className="recipecard">
-      {data.recipes?.map((recipe) => (
+      {data.recipes.map((recipe) => (
       <Recipe recipe={recipe}
         key={recipe.name}/> ))} 
       </div>

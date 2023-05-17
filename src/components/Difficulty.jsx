@@ -1,16 +1,16 @@
 
 
-const Meal= (props) => {
+const Difficulty= (props) => {
   let colorVariable
 
-  switch (props.recipe.meal) {
-    case 'Breakfast':
-      colorVariable = 'red'
-      break
-    case 'Lunch & Dinner':
+  switch (props.recipe.difficulty) {
+    case 'Easy':
       colorVariable = 'green'
       break
-    case 'Dessert':
+    case 'Moderate':
+      colorVariable = 'red'
+      break
+    case 'Hard':
       colorVariable = 'blue'
       break
   default:
@@ -20,9 +20,9 @@ const Meal= (props) => {
 
   return ( 
     <div className="types" style ={{backgroundColor: colorVariable}}>
-        {props.recipe.meal}
+        {props.recipe.difficulty}
     </div>
   )
   } 
 
-  export default Meal
+  export default Difficulty

@@ -24,6 +24,59 @@ main {
   margin: 50px;
 }
 
+h1{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+h2{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+h3{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+h4{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+h5{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+p{ 
+  color: #ffffff;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
 
 .recipecard{ 
   display: flex;
@@ -37,7 +90,7 @@ main {
 }
 
 .title { 
-  color: purple;
+  color: #ffffff;
   align-items: center;
   margin: 50px;
   padding: 50px;
@@ -53,6 +106,15 @@ main {
   justify-content: space-around;
   border-style: solid;
   border-color: #ffffff;
+  color: #ffffff;
+}
+
+.nutrition { 
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-around;
 }
 
 .app { 
@@ -65,4 +127,14 @@ main {
   flex-direction: column;
   justify-content: space-between;
   height: 70vh;
+}
+
+.ingredient { 
+  color: #ffffff;
+  size: 12px;
+}
+
+.step { 
+  color: #ffffff;
+  size: 12px;
 }

@@ -16,6 +16,9 @@ const Type = (props) => {
     case 'Seafood':
       colorVariable = "#2292A4"
       break
+    case 'Dog Food & Treats':
+      colorVariable = "#07393C"
+      break
   default:
       colorVariable = ''
   }
@@ -23,7 +26,7 @@ const Type = (props) => {
 
   return ( 
     <div className="types" style ={{color: colorVariable}}>
-        {props.type}
+        &nbsp;{props.type}&nbsp;
     </div>
   )
   } 

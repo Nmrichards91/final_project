@@ -17,7 +17,7 @@ const Flavor = (props) => {
 
   return ( 
     <div className="flavor" style ={{color: colorVariable}}>
-        {props.flavor}
+        &nbsp;{props.flavor}&nbsp;
     </div>
   )
   } 

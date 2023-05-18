@@ -3,7 +3,24 @@ import Meal from './Meal'
 import Difficulty from './Difficulty'
 import Nutrition from './Nutrition'
 import Flavor from './Flavor'
+import Hours from './Hours'
+import Minutes from './Minutes'
 
+var aDiv = document.getElementById("testScroll");
+
+function changeWidth() 
+{
+    var scrollVal = window.pageYOffset;
+    var scrollSlow  = (scrollVal / 4);
+    
+    //Changing CSS Width
+    aDiv.style.width = Math.min(Math.max(scrollSlow, 20), 100) + "%";
+}
+
+window.addEventListener('scroll', function() 
+{
+    requestAnimationFrame(changeWidth);
+}, false);
 
 const Recipe = (props) => {
 
@@ -13,22 +30,24 @@ const Recipe = (props) => {
     <img src={props.recipe.image} />
       <div className="center">
         <div className="subtitle">{props.recipe.subtitle}</div>
-
+        <br></br>
+        <div className="components">
+        <Nutrition nutrition={props.recipe.nutrition} />
+        <Type type={props.recipe.type} />
+        <Flavor flavor={props.recipe.flavor} />
+      </div> 
+      <br></br>
         <div className="timedifficulty">
           <h3 className="difficulty">Difficulty:&nbsp;<Difficulty difficulty={props.recipe.difficulty} /></h3>
-          <h3 className="time">Time: {props.recipe.time.hours}h{props.recipe.time.minutes}m</h3>
+          <h3 className="time">Time:&nbsp;<Hours hours={props.recipe.time.hours} /><Minutes minutes={props.recipe.time.minutes} /></h3>
         </div>
         <div className="meal">
           <h3 className="meal">Meal: &nbsp;<Meal meal={props.recipe.meal} /></h3>
         </div>
-        <div className="components">
-        <Nutrition nutrition={props.recipe.nutrition} />&nbsp; &nbsp; 
-        <Flavor flavor={props.recipe.flavor} />&nbsp; &nbsp; 
-        <Type type={props.recipe.type} />
-      </div> 
-      <br></br>
-        <div className="recipescroll">
-        <h4>Ingredients ↓</h4>
+        <div className="recipescroll" id="testScroll">
+        <h4>↓ RECIPE ↓</h4>
+        <br></br>
+        <h5>INGREDIENTS</h5>
           <p className="ingredient">{props.recipe.ingredients.ing1}</p>
           <p className="ingredient">{props.recipe.ingredients.ing2}</p>
           <p className="ingredient">{props.recipe.ingredients.ing3}</p>
@@ -48,7 +67,7 @@ const Recipe = (props) => {
           <p className="ingredient">{props.recipe.ingredients.ing17}</p>
           <p className="ingredient">{props.recipe.ingredients.ing18}</p>
           <br></br>
-        <h4>Recipe</h4>
+        <h5>INSTRUCTIONS</h5>
           <div className="recipe">
           <p className="step">{props.recipe.recipe.step1}</p>
           <p className="step">{props.recipe.recipe.step2}</p>
@@ -67,6 +86,7 @@ const Recipe = (props) => {
           <p className="step">{props.recipe.recipe.step15}</p>
           </div>
           </div>
+
       </div>
     </div>
     )

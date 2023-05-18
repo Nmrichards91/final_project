@@ -5,13 +5,13 @@ const Difficulty= (props) => {
 
   switch (props.difficulty) {
     case 'Easy':
-      colorVariable = "#775253"
+      colorVariable = "#536B78"
       break
     case 'Moderate':
-      colorVariable = "#775253"
+      colorVariable = "#536B78"
       break
     case 'Hard':
-      colorVariable = "#775253"
+      colorVariable = "#536B78"
       break
   default:
       colorVariable = ''

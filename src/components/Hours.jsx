@@ -1,31 +1,28 @@
 
 
-const Meal= (props) => {
+const Hours= (props) => {
   let colorVariable
 
-  switch (props.meal) {
-    case 'Breakfast':
+  switch (props.hours) {
+    case '0h':
       colorVariable = "#536B78"
       break
-    case 'Lunch & Dinner':
+    case '1h':
       colorVariable = "#536B78"
       break
-    case 'Dessert':
+    case '2h':
       colorVariable = "#536B78"
       break
-    case 'Dog Food':
-        colorVariable = "#536B78"
-        break
   default:
-      colorVariable = ""
+      colorVariable = ''
   }
 
 
   return ( 
     <div className="types" style ={{color: colorVariable}}>
-        {props.meal}&nbsp;
+        {props.hours}
     </div>
   )
   } 
 
-  export default Meal
+  export default Hours

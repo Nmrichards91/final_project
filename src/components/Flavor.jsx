@@ -5,7 +5,7 @@ const Flavor = (props) => {
 
   switch (props.flavor) {
     case 'Flavor':
-      colorVariable = 'red'
+      colorVariable = "#93032E"
       break
   default:
       colorVariable = ''

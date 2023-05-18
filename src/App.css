@@ -32,7 +32,7 @@ h1{
   padding: 10px;
   text-align: center;
   font-family: 'tommy font';
-  font-size: 70px;
+  font-size: 90px;
 }
 
 h2{ 
@@ -41,12 +41,12 @@ h2{
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 5px;
   text-align: center;
   font-family: 'LEMONMILK-Light';
   font-weight: 550;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 h3{ 
@@ -153,7 +153,7 @@ p{
 }
 
 .recipecard { 
-  width: 400px;
+  width: 550px;
   display: flex;
   background-color:  #fffbfc;
   padding: 5px;
@@ -180,8 +180,8 @@ p{
 }
 
 img { 
-  width: 230px;
-  height: 230px;
+  width: 280px;
+  height: 280px;
   margin: 0px;
   
 }
@@ -202,7 +202,8 @@ img {
   border-style: solid; 
   border-color: #775253;
   border-width: 1px;
-  width: 350px;
+  width: 475px;
+
 }
 
 ::-webkit-scrollbar {
@@ -220,11 +221,10 @@ img {
 
 .components { 
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
     font-size: 14px;
     align-items: center;
-    color: #536B78;
   } 
 
 

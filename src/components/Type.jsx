@@ -5,16 +5,16 @@ const Type = (props) => {
 
   switch (props.type) {
     case 'Vegan':
-      colorVariable = "#775253"
+      colorVariable = "#558B6E"
       break
     case 'Vegetarian':
-      colorVariable = "#775253"
+      colorVariable = "#07393C"
       break
     case 'Game':
-      colorVariable = "#775253"
+      colorVariable = "#4C191B"
       break
     case 'Seafood':
-      colorVariable = "#775253"
+      colorVariable = "#2292A4"
       break
   default:
       colorVariable = ''

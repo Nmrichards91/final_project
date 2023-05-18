@@ -14,8 +14,8 @@ const Recipe = (props) => {
       <div>
         <div className="subtitle">{props.recipe.subtitle}</div>
         <div className="components">
-        <Nutrition nutrition={props.recipe.nutrition} />
-        <Flavor flavor={props.recipe.flavor} />
+        <Nutrition nutrition={props.recipe.nutrition} />&nbsp; &nbsp; 
+        <Flavor flavor={props.recipe.flavor} />&nbsp; &nbsp; 
         <Type type={props.recipe.type} />
       </div> 
         <div className="timedifficulty">

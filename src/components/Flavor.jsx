@@ -3,7 +3,7 @@
 const Flavor = (props) => {
   let colorVariable
 
-  switch (props.nutrition) {
+  switch (props.flavor) {
     case 'Flavor':
       colorVariable = 'red'
       break

@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  background-color: #fffbfc;
+  background-color: #ffffff;
 }
 
 code {
@@ -22,22 +22,26 @@ main {
   display: flex;
   color: #775253;
   margin: 10px;
+  background-color: #395C6B;
 }
 
 h1{ 
   color: #32292F;
   align-items: center;
-  margin: 10px;
+  margin: 30px;
   padding: 10px;
   text-align: center;
   font-family: 'tommy font';
-  font-size: 54px;
+  font-size: 70px;
 }
 
 h2{ 
   color:#775253;
   align-items: center;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 20px;
   padding: 5px;
   text-align: center;
   font-family: 'LEMONMILK-Light';
@@ -70,15 +74,27 @@ h3{
   display: flex;
 }
 
+.meal {
+  color:#775253;
+  font-size: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  display: flex;
+}
+
 .subtitle { 
   align-items: center;
   justify-content: center;
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 5px;
   border-style: solid;
   border-color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -86,6 +102,15 @@ h3{
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-top: 0px;
+}
+
+.meal { 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 h4{ 
@@ -124,6 +149,7 @@ p{
   border-style: solid;
   border-color: #775253;
   border-width: 3px;
+  background-color: #D9D7DD;
 }
 
 .recipecard { 
@@ -131,15 +157,17 @@ p{
   display: flex;
   background-color:  #fffbfc;
   padding: 5px;
-  margin: 5px;
+  margin: 20px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  height: 55vh;
+  height: 70vh;
   border-style: solid;
-  border-color: #775253;
+  border-color: #D9D7DD;
   border-width: 3px;
 }
+
+
 
 .ingredient { 
   color: #775253;
@@ -158,8 +186,9 @@ img {
   
 }
 
+
 .recipescroll { 
-  height: 80px; 
+  height: 150px; 
   overflow-y: auto;
   line-height: auto;
   align-items: left;
@@ -191,14 +220,11 @@ img {
 
 .components { 
     text-align: center;
+    justify-content: space-evenly;
     display: flex;
+    font-size: 14px;
     align-items: center;
-    border-style: solid;
-    border-color: #775253;
-    width: 360px;
-    padding: 5px;
-    justify-content: space-around;
-
+    color: #536B78;
   } 
 
 
@@ -208,9 +234,6 @@ img {
   display: flex;
 }
 
-ul { 
-  list-style: none;
-}
 
 
 /* .types { 

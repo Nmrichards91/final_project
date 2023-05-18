@@ -5,16 +5,19 @@ const Meal= (props) => {
 
   switch (props.meal) {
     case 'Breakfast':
-      colorVariable = 'red'
+      colorVariable = "#536B78"
       break
     case 'Lunch & Dinner':
-      colorVariable = 'green'
+      colorVariable = "#536B78"
       break
     case 'Dessert':
-      colorVariable = 'blue'
+      colorVariable = "#536B78"
       break
+    case 'Dog Food':
+        colorVariable = "#536B78"
+        break
   default:
-      colorVariable = ''
+      colorVariable = ""
   }
 
 

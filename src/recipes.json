@@ -179,8 +179,8 @@
       {
         "name": "Brocolli Cheddar Quiche",
         "subtitle": "Who doesn't love quiche?",
-        "meal": "Breakfast, Lunch & Dinner",
-        "nutrition": "Healthy",
+        "meal": "Lunch & Dinner",
+        "nutrition": "",
         "flavor": "",
         "type": "Vegetarian",
         "difficulty": "Moderate",
@@ -1063,7 +1063,7 @@
       "flavor": "",
       "type": "Dog Food & Treats",
       "difficulty": "Easy",
-      "meal": "",
+      "meal": "Dog Food",
       "time": { 
         "hours": "1", 
         "minutes": "00"
@@ -1107,7 +1107,7 @@
       "flavor": "",
       "type": "Dog Food & Treats",
       "difficulty": "Easy",
-      "meal": "",
+      "meal": "Dog Food",
       "time": { 
         "hours": "0", 
         "minutes": "45"
@@ -1151,7 +1151,7 @@
       "flavor": "",
       "type": "Dog Food & Treats",
       "difficulty": "Easy",
-      "meal": "",
+      "meal": "Dog Food",
       "time": { 
         "hours": "1", 
         "minutes": "30"

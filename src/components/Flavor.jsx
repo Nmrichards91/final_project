@@ -4,8 +4,11 @@ const Flavor = (props) => {
   let colorVariable
 
   switch (props.flavor) {
-    case 'Flavor':
+    case 'Spicy':
       colorVariable = "#93032E"
+      break
+    case 'Sweets & Treats':
+      colorVariable = "#07393C"
       break
   default:
       colorVariable = ''

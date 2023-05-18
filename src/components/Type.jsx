@@ -10,7 +10,7 @@ const Type = (props) => {
     case 'Vegetarian':
       colorVariable = "#07393C"
       break
-    case 'Game':
+    case 'Game Meat':
       colorVariable = "#4C191B"
       break
     case 'Seafood':

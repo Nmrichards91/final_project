@@ -13,6 +13,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
 }
 
 
@@ -20,12 +21,17 @@ code {
 main { 
   align-items: center;
   justify-content: space-between;
+  text-align: center;
   display: flex;
   color: #775253;
   margin: 10px;
   background-color: rgb(57,92,107, .5);
 
+}
 
+.center { 
+  text-align: center;
+  align-items: center;
 }
 
 h1{ 
@@ -90,15 +96,16 @@ h3{
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-top: 0px;
   margin-bottom: 5px;
   padding: 5px;
   border-style: solid;
   border-color: #ffffff;
-  font-size: 20px;
   text-align: center;
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .timedifficulty { 
@@ -122,6 +129,8 @@ h3{
   margin-top: 0px;
   margin-bottom: 10px;
   justify-content: flex-start;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
 
@@ -131,7 +140,7 @@ h4{
   align-items: center;
   margin: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 
 
 }
@@ -175,13 +184,14 @@ p{
   border-style: solid;
   border-color: #D9D7DD;
   border-width: 3px;
+  text-align: center;
 }
 
 
 
 .ingredient { 
   color: #775253;
-  size: 12px;
+  font-size: 14px;
 }
 
 .step { 
@@ -192,13 +202,13 @@ p{
 img { 
   width: 300px;
   height: 300px;
-  margin: 0px;
+  margin: 20px;
   
 }
 
 
 .recipescroll { 
-  height: 150px; 
+  height: 120px; 
   overflow-y: auto;
   line-height: auto;
   align-items: left;
@@ -212,7 +222,7 @@ img {
   border-style: solid; 
   border-color: #775253;
   border-width: 1px;
-  width: 475px;
+  width: 490px;
 
 }
 
@@ -235,6 +245,7 @@ img {
     display: flex;
     font-size: 14px;
     align-items: center;
+    margin-left: 0px;
   } 
 
 

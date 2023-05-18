@@ -11,7 +11,7 @@ const Recipe = (props) => {
     <div className="recipecard">
     <h2>{props.recipe.name}</h2>
     <img src={props.recipe.image} />
-      <div>
+      <div className="center">
         <div className="subtitle">{props.recipe.subtitle}</div>
 
         <div className="timedifficulty">
@@ -47,6 +47,7 @@ const Recipe = (props) => {
           <p className="ingredient">{props.recipe.ingredients.ing16}</p>
           <p className="ingredient">{props.recipe.ingredients.ing17}</p>
           <p className="ingredient">{props.recipe.ingredients.ing18}</p>
+          <br></br>
         <h4>Recipe</h4>
           <div className="recipe">
           <p className="step">{props.recipe.recipe.step1}</p>

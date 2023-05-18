@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  background-color: #ffffff;
+  background-image: url("https://i.imgur.com/n3k4u8p.png");
+
 }
 
 code {
@@ -22,7 +23,9 @@ main {
   display: flex;
   color: #775253;
   margin: 10px;
-  background-color: #395C6B;
+  background-color: rgb(57,92,107, .5);
+
+
 }
 
 h1{ 
@@ -141,15 +144,11 @@ p{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #fffbfc;
   margin: 10px;
   padding: 10px;
   align-items: center;
   justify-content: space-around;
-  border-style: solid;
-  border-color: #775253;
-  border-width: 3px;
-  background-color: #D9D7DD;
+  background-color: rgb(217, 215, 221, .5);
 }
 
 .recipecard { 
@@ -180,8 +179,8 @@ p{
 }
 
 img { 
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   margin: 0px;
   
 }

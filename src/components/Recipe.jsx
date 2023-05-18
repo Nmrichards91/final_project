@@ -44,7 +44,11 @@ const Recipe = (props) => {
           <p className="ingredient">{props.recipe.ingredients.ing13}</p>
           <p className="ingredient">{props.recipe.ingredients.ing14}</p>
           <p className="ingredient">{props.recipe.ingredients.ing15}</p>
+          <p className="ingredient">{props.recipe.ingredients.ing16}</p>
+          <p className="ingredient">{props.recipe.ingredients.ing17}</p>
+          <p className="ingredient">{props.recipe.ingredients.ing18}</p>
         <h4>Recipe</h4>
+          <div className="recipe">
           <p className="step">{props.recipe.recipe.step1}</p>
           <p className="step">{props.recipe.recipe.step2}</p>
           <p className="step">{props.recipe.recipe.step3}</p>
@@ -60,6 +64,7 @@ const Recipe = (props) => {
           <p className="step">{props.recipe.recipe.step13}</p>
           <p className="step">{props.recipe.recipe.step14}</p>
           <p className="step">{props.recipe.recipe.step15}</p>
+          </div>
           </div>
       </div>
     </div>
